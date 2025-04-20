@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- Header -->
+	<head>
+		<title>ICT171 - Project Proposal</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<meta charset="utf-8"/>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
+	<!-- Body -->
+	<body> 
+		<header>
+			<h1>Student ID: 33958764</h1>
+		</header>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+		<div class="container">
+			<h1>Project Proposal: <br/>Mood Based Weather App</h1>
+			<div class="content middle">
+				<h2>Description</h2>
+				The project will be to develop a weather app that will not only provide you with weather details from a 3rd party source, but also collect information about the user and their mood on the given day and how the weather affects them. The app will take the information from its users and correlate how that particular weather makes people feel based on temperature, forecast and humidity. It will let the user know what kind of mood the weather will likely put them in on a given day. Additionally, it will also seek to ask how productive a person feels against that weather to in future provide insight to how weather may affect their productivity. 
+				<h2>Components to the project:</h2>
+				<ol>
+					<li>Weather Data Integration: The app will pull live weather data using a public weather API (e.g., OpenWeatherMap, Weatherstack) to display real-time weather conditions.</li>
+					<li>Mood Logging: Each day, users will be prompted to log their mood in the app, with options like “Happy,” “Sad,” “Energetic,” or “Relaxed.” Users can add short text entries to describe how the weather makes them feel.</li>
+					<li>Data Storage and Analytics: Azure Functions will handle the backend processing. Mood logs and weather data will be stored in Azure Cosmos DB. The app will track correlations between weather conditions (temperature, humidity, wind) and user mood.</li>
+					<li>Personalised Insights: Over time, the app will analyse patterns and offer insights like “You tend to feel more productive on sunny days” or “Cloudy weather makes you feel more relaxed.”</li>
+					<li>Sentiment Analysis: To enhance user experience, Azure Cognitive Services can be used for sentiment analysis of mood logs, identifying emotional trends.</li>
+				</ol>
+				<h2>Licensing</h2>
+				The chosen license will be a full commercial copyright license that will retain all rights and protection for the software involved, the idea in play and any styling, images or content that a third party does not deliver. The reason for this is that the application will serve as a source of personal passive income by incorporating Google AdSense and future subscriptions that may offer users more advanced features and insights.
+			</div>
 
+		</div>
+
+
+		<footer>
+			This website is created by Blayde Anthony Dietsch<br/>
+			Student ID (33958764)<br/>
+			<a href="mailto:blaydedietsch@outlook.com">blaydedietsch@outlook.com</a>
+		</footer>
+	</body>
 </html>
